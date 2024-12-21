@@ -1,0 +1,56 @@
+{
+  "name": "@megaorm/pg",
+  "version": "1.0.0",
+  "description": "This package provides a simple, high-level, unified API for interacting with PostgreSQL databases.",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "author": "Mohamed",
+  "license": "MIT",
+  "repository": {
+    "url": "git+https://github.com/megaorm/megaorm-pg.git"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.10.2",
+    "@types/pg": "^8.11.10",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.7.2"
+  },
+  "scripts": {
+    "test": "npx jest --coverage",
+    "build": "tsc"
+  },
+  "keywords": [
+    "megaorm-pg",
+    "pg-driver",
+    "pg",
+    "postgresql",
+    "postgresql-driver",
+    "megaorm",
+    "database-driver",
+    "nodejs",
+    "node-postgresql",
+    "database-connection",
+    "orm",
+    "database",
+    "postgresql-connection",
+    "transactions",
+    "sql",
+    "query-builder",
+    "sql-driver",
+    "postgresql-connector",
+    "node-database",
+    "nodejs-postgresql",
+    "database-management",
+    "node-postgresql-driver",
+    "javascript-postgresql"
+  ],
+  "dependencies": {
+    "@megaorm/driver": "^1.0.0",
+    "@megaorm/errors": "^1.0.0",
+    "@megaorm/test": "^1.2.0",
+    "@megaorm/utils": "^1.0.0",
+    "pg": "^8.13.0"
+  }
+}
